@@ -1,0 +1,12 @@
+6.	Tag Cardio: Semantic HTML Main
+Create a Web Page like the following:
+
+Use <main> and in it <h1> and <p>.
+Create a file named semantic-main.html. Use the text from the file site-texts.txt. Set the html title to be the same as the task name.
+
+
+
+THE TEXT:
+
+Most Popular Browsers
+Chrome, Firefox, and Edge are the most used browsers today.

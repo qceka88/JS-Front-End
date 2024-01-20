@@ -1,0 +1,9 @@
+2.	Tag Cardio: Paragraphs
+Create a Web Page like the following, using <p>:
+
+Create a file named paragraphs.html. Use the text from the file site-texts.txt.
+Set the html title to be the same as the task name.
+
+The text:
+
+This is a paragraph.

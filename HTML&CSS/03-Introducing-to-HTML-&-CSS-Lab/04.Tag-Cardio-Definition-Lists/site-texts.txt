@@ -1,0 +1,14 @@
+4.	Tag Cardio: Definition Lists
+Create a Web Page like the following:
+
+Use <h2> for title and <dl>, <dt> and <dd> for the rest.
+Create a file named definition-lists.html. Use the text from the file site-texts.txt.
+Set the html title to be the same as the task name.
+
+The text :
+List Header
+
+JavaScript
+Programming language, that runs on the Web.
+HTML
+Language for describing Web content, using text and tags.
