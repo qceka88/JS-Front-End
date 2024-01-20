@@ -1,0 +1,10 @@
+8.	Tag Cardio: Semantic HTML Article
+Create a Web Page like the following:
+
+Use <article> and in it <h2> and <p>.
+Create a file named semantic-article.html. Use the text from the file site-texts.txt. Set the html title to be the same as the task name.
+
+THE TEXT:
+
+Google Chrome
+Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!

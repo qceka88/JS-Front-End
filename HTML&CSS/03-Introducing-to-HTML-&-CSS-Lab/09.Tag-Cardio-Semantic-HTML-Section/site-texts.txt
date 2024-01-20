@@ -1,0 +1,10 @@
+9.	Tag Cardio: Semantic HTML Section
+Create a Web Page like the following:
+
+Use <section> and in it <h2> and <p>.
+Create a file named semantic-section
+
+The Text:
+
+Google Chrome
+Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!

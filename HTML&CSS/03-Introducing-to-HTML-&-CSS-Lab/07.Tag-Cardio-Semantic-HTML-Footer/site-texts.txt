@@ -1,0 +1,9 @@
+7.	Tag Cardio: Semantic HTML Footer
+Create a Web Page like the following:
+
+Use <footer> tag.
+Create a file named semantic-footer.html. Use the text from the file site-texts.txt. Set the html title to be the same as the task name.
+
+THE TEXT:
+
+HTML&CSS

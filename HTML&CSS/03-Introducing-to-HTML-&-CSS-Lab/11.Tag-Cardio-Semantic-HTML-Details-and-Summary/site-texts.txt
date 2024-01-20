@@ -1,0 +1,12 @@
+11.	Tag Cardio: Semantic HTML Details and Summary
+Create a Web Page like the following:
+
+↓
+
+Use <details> and in it <summary> and <p>.
+Create a file named semantic-details-and-summary.html. Use the text from the file site-texts.txt. Set the html title to be the same as the task name.
+
+THE TEXT:
+
+Epcot Center
+Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.

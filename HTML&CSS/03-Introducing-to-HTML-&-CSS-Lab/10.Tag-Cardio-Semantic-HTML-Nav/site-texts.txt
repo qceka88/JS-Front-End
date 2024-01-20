@@ -1,0 +1,12 @@
+10.	Tag Cardio: Semantic HTML Nav
+Create a Web Page like the following:
+
+Use <nav> and in it <a>.
+Create a file named semantic-nav.html. Use the text from the file site-texts.txt. Set the html title to be the same as the task name.
+
+THE TEXT:
+
+HTML
+CSS
+JavaScript
+Python
