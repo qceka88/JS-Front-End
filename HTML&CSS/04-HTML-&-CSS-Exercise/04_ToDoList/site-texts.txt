@@ -1,0 +1,37 @@
+4.	To Do List
+Create a Web Page like the following:
+
+Create two files: to-do-list.html and to-do-list.css. Use the texts from the file site-texts.txt. Use the texts from the file site-texts.txt. Set the html title to be the same as the task name.
+Requirements
+•	<main> with class="my-list" as container
+o	Background Color: #f7f381;
+o	Padding: 8px 24px;
+o	Width: 500px;
+o	Text size: 30px;
+o	Border: 1px solid #f7f381;
+o	box-shadow: 0 0 10px 2px #333333;
+•	<ol>
+o	Margin: 12px;
+•	<p>
+o	Center the text
+Hints
+•	Center the container
+•	Heading: use <h1>
+•	Date: use <p> + center it
+•	List: use <ol>
+
+
+    THE TEXT:
+
+To do list
+
+Today's to do list
+
+Monday, September 19th
+
+1. Write a blog post
+2. Go to the bank
+3. Study for exams
+4. Renew web hosting account and domain name
+5. Learn something new
+6. Update project log

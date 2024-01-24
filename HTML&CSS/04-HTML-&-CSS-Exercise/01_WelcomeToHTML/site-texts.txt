@@ -1,0 +1,11 @@
+1.	Welcome to HTML
+Create a Web Page like the following:
+
+Create file named welcome.html. Use the texts from the file site-texts.txt.
+
+
+THE - TEXT:
+
+Welcome
+
+I am learning HTML and CSS!

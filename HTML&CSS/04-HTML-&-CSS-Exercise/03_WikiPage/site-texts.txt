@@ -1,0 +1,37 @@
+3.	Wiki Page
+Create a Web Page like the following:
+
+
+Create file: wiki-page.html. Use the texts from the file site-texts.txt.
+Requirements
+•	Title: The Brown Bear
+o	<h1> for heading
+•	Hyperlink: https://en.wikipedia.org/wiki/Brown_bear
+•	Text: use paragraph
+•	List: use ordered list and unordered list
+•	Image: bear.jpg
+
+
+'''
+    Pictures are in folder
+'''
+
+    THE TEXT:
+
+
+The Brown Bear
+
+The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.
+
+Learn More
+
+Here are some bear species:
+Arctos
+Collarus
+Horribilis
+Nelsoni (extinct)
+
+The following countries have the largest populations of brown bears:
+1. Russia
+2. United States
+3. Canada
