@@ -1,0 +1,4 @@
+12.	Property: Position - Relative
+Use the skeleton is in resources to achieve the following view:
+
+Set position to relative to solve the problem.

@@ -1,0 +1,9 @@
+13.	Property: Z-Index
+Use skeleton, which is in resources to solve the next problem:
+
+Use z-index to solve the problem:
+	Put Dashed Box above the Green Box
+	Put Gold Box above the Green Box
+	Green Box: z-index 1
+	Dashed Box: z-index 2
+	Gold Box: z-index 3

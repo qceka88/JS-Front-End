@@ -1,0 +1,4 @@
+11.	Property: Position - Absolute
+Use the skeleton is in resources to achieve the following view:
+
+Set position to absolute to solve the problem.

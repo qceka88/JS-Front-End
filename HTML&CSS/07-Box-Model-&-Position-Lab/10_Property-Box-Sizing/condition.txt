@@ -1,0 +1,6 @@
+10.	Property: Box-Sizing
+Use the skeleton is in resources to achieve the following view:
+
+Use box-sizing to solve the problem.
+	First Box – Use content-box on box-sizing
+	Second Box – Use border-box on box-sizing
