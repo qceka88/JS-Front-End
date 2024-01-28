@@ -1,0 +1,4 @@
+3.	Selector Cardio: Adjacent or Next Sibling Combinator
+Use the skeleton which is in resources to achieve the following view:
+
+Use the adjacent combinator to set text-decoration underline to paragraphs.
