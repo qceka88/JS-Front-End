@@ -1,0 +1,4 @@
+9.	Selector Cardio: Nth Child
+Use the skeleton which is in resources to achieve the following view:
+
+Use the nth child combinator to set color white and background-color red to odd span.

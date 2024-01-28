@@ -1,0 +1,4 @@
+6.	Selector Cardio: First of Type
+Use skeleton, which is in resources to solve the next problem:
+
+Use the first type combinator to set background-color blue to paragraphs.

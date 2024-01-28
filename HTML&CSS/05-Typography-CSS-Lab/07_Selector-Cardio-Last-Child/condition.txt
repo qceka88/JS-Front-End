@@ -1,0 +1,4 @@
+7.	Selector Cardio: Last Child
+Use the skeleton which is in resources to achieve the following view:
+
+Use the last child combinator to set color red to span.

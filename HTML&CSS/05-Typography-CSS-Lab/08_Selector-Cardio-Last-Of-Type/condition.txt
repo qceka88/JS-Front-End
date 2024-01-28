@@ -1,0 +1,4 @@
+8.	Selector Cardio: Last of Type
+Use the skeleton which is in resources to achieve the following view:
+
+Use the last type combinator to set background-color yellow to paragraphs.
