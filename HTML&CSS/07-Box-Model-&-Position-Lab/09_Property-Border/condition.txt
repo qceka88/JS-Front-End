@@ -1,0 +1,4 @@
+9.	Property: Border
+Use the skeleton is in resources to achieve the following view:
+
+Set border to 2px solid blue to solve the problem.

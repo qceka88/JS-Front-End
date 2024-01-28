@@ -1,0 +1,4 @@
+6.	Property: Margin-Block
+Use the skeleton is in resources to achieve the following view:
+
+Set margin-block to 10% to solve the problem.

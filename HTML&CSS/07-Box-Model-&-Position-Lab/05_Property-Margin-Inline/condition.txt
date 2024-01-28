@@ -1,0 +1,4 @@
+5.	Property: Margin-Inline
+Use the skeleton is in resources to achieve the following view:
+
+Set margin-inline to 30% to solve the problem.

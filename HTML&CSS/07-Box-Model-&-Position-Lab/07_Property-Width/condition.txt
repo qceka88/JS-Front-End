@@ -1,0 +1,4 @@
+7.	Property: Width
+Use the skeleton is in resources to achieve the following view:
+
+Set width to 50% to solve the problem.

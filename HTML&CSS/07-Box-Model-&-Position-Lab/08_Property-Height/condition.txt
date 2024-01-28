@@ -1,0 +1,4 @@
+8.	Property: Height
+Use the skeleton is in resources to achieve the following view:
+
+Set height to 100px to solve the problem.
