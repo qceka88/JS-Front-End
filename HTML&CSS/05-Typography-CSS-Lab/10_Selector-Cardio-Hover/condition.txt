@@ -1,0 +1,6 @@
+10.	Selector Cardio: Hover
+Use the skeleton which is in resources to achieve the following view:
+
+
+
+Use the hover to set background-color red to button.
