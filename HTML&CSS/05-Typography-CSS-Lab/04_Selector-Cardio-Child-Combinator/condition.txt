@@ -1,0 +1,4 @@
+4.	Selector Cardio: Child Combinator
+Use the skeleton which is in resources to achieve the following view:
+
+Use the child combinator to set text-decoration line-through to code.

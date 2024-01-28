@@ -1,0 +1,4 @@
+5.	Selector Cardio: First Child
+Use the skeleton which is in resources to achieve the following view:
+
+Use the first child combinator to set font-weight bold and color red to span.
