@@ -1,0 +1,4 @@
+3.	Property: Padding-Block
+Use the skeleton is in resources to achieve the following view:
+
+Set padding-block to 50px to solve the problem.

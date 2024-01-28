@@ -1,0 +1,4 @@
+2.	Property: Padding-Inline
+Use the skeleton is in resources to achieve the following view:
+
+Set padding-inline to 30% to solve the problem.
