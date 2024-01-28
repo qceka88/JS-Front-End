@@ -1,0 +1,38 @@
+body {
+    background-color: lightgray;
+}
+
+.button {
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    border: 1px solid black;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: lightgray;
+    color: black;
+    margin: 5px 15px 5px 15px;
+}
+
+
+.fill {
+    background-color: black;
+    color: rgb(251, 251, 251);
+}
+
+button.hover:hover {
+    background-color: white;
+    border: 1px solid green;
+    color: green;
+}
+
+.fill.hover:hover {
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+}
+
+
+i {
+    margin-right: 5px;
+}
