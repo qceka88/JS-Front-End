@@ -1,0 +1,6 @@
+12.	Selector Cardio: Focus
+Use the skeleton which is in resources to achieve the following view:
+
+↓
+
+Use the focus to set background-color darkmagenta to button.

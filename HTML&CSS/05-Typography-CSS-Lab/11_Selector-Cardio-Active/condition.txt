@@ -1,0 +1,6 @@
+11.	Selector Cardio: Active
+Use the skeleton which is in resources to achieve the following view:
+
+↓
+
+Use the active to set background-color blue to button.
