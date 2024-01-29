@@ -1,0 +1,41 @@
+
+body {
+    border: 5px solid lightgray;
+}
+
+section {
+    padding: 16px;
+    width: 451px;
+    height: 540px;
+}
+
+h2 {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    margin: 1.2em 0;
+}
+
+div {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+button {
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    border-radius: 4px;
+    width: 250px;
+    background-color: #d5384d;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 8px 16px 8px 16px;
+    margin: 8px 0 8px 0;
+}
+
+p {
+    font-family: "Cambria", "Times New Roman", "Times", serif;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 0;
+}
