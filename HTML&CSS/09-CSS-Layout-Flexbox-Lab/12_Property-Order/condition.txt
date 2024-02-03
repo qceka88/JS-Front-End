@@ -1,0 +1,12 @@
+12.	Property: Order
+Use the skeleton is in resources to achieve the following view:
+Use order to solve the problem:
+	Box One – 2
+	Box Two – 0
+	Box Three – 1
+
+
+
+```
+    See img.png file for final result
+```
