@@ -1,0 +1,7 @@
+6.	Property: Align Content
+Use the skeleton is in resources to achieve the following view:
+Set align-content to flex-end to solve the problem.
+
+```
+    See img.png file for final result
+```

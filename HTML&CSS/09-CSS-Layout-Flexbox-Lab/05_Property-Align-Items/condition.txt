@@ -1,0 +1,7 @@
+5.	Property: Align Items
+Use the skeleton is in resources to achieve the following view:
+Set align-item to center to solve the problem.
+
+```
+    See img.png file for final result
+```
