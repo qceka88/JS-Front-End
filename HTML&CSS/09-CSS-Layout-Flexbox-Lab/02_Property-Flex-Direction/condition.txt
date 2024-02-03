@@ -1,0 +1,8 @@
+2.	Property: Flex Direction
+Use the skeleton is in resources to achieve the following view:
+
+Set flex-direction to row-reverse to solve the problem.
+
+```
+    See img.png file for final result
+```
