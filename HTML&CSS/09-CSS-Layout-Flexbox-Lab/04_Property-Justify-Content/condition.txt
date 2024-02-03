@@ -1,0 +1,8 @@
+4.	Property: Justify Content
+Use the skeleton is in resources to achieve the following view:
+Set justify-content to center to solve the problem.
+
+
+```
+    See img.png file for final result
+```
