@@ -1,0 +1,8 @@
+10.	Property: Flex Basis
+Use the skeleton is in resources to achieve the following view:
+Set flex-basis to 120px to solve the problem.
+
+
+```
+    See img.png file for final result
+```

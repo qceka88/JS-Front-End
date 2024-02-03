@@ -1,0 +1,7 @@
+7.	Property: Gap
+Use the skeleton is in resources to achieve the following view:
+Set gap to 70px to solve the problem.
+
+```
+    See img.png file for final result
+```

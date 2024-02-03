@@ -1,0 +1,10 @@
+8.	Property: Flex Grow
+Use the skeleton is in resources to achieve the following view:
+Use flex-grow to solve the problem:
+	Box One – 1
+	Box Two – 2
+	Box Three – 3
+
+```
+    See img.png file for final result
+```
