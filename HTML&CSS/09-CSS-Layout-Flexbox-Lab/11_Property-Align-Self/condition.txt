@@ -1,0 +1,7 @@
+11.	Property: Align Self
+Use the skeleton is in resources to achieve the following view:
+Set align-self to center to solve the problem.
+
+```
+    See img.png file for final result
+```
