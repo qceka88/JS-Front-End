@@ -1,0 +1,12 @@
+1.	Property: Display Flex
+Use the skeleton is in resources to achieve the following view:
+
+Use display to solve the problem.
+1.	Property: Display Flex
+Use the skeleton is in resources to achieve the following view:
+
+Use display to solve the problem.
+
+```
+    See .png file for final result
+```
