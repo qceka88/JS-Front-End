@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: #eee;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+}
+
+header, main, aside, footer {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    color: #000;
+    border: 2px solid rgba(176, 174, 174, 0.8);
+    box-shadow: 0.3em 0.3em 0.3em 0 rgb(0, 0, 0, 0.4);
+
+}
+
+header, footer {
+    flex-basis: 100%;
+}
+
+main, aside {
+    height: 10rem;
+}
+
+header {
+    height: 7rem;
+}
+
+main {
+    flex: 1 0 60%;
+}
+
+aside {
+    flex: 1 1 auto;
+}
+
+* > p {
+    left: -1rem;
+    top: -1rem;
+    position: relative;
+    text-transform: uppercase;
+}
