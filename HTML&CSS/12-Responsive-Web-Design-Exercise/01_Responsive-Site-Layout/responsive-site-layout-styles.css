@@ -39,15 +39,12 @@ aside ul {
     padding: 1em 2em;
 }
 
-header {
+header, footer {
     flex: 1 1 100%;
+    vertical-align: center;
 }
 
-footer {
-    flex: 1 1 100%;
-}
-
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
     body {
         flex-direction: column;
     }
