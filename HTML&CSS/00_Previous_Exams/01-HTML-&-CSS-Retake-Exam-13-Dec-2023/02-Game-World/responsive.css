@@ -1,0 +1,92 @@
+@media (max-width: 600px) {
+    .game-world-header {
+        height: 200px;
+    }
+
+
+    .tm-header-inner {
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .tm-welcome-section {
+        justify-content: center;
+        margin: 2.5em auto 2em auto;
+    }
+
+    .tm-section-title {
+        padding-bottom: 0.5em;
+        font-size: 3em;
+        margin: 0 1.5em;
+    }
+
+    .tm-welcome-section p {
+        font-size: 1.5em;
+    }
+
+    .tm-paging-item {
+        font-size: 1.5em;
+        margin: 0 0.5em;
+    }
+
+    .tm-gallery {
+        margin: 0 auto;
+        align-items: center;
+
+    }
+
+    .tm-gallery-page {
+        margin: 0 4em 0 5.2em;
+        flex-direction: column;
+    }
+
+    .tm-gallery-item {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+
+    }
+
+    .tm-gallery-title {
+        margin-left: 2em;
+        font-size: 2em;
+    }
+
+    .tm-gallery-description {
+        font-size: 1.2em;
+    }
+
+    .tm-gallery-price {
+        font-size: 1.7em;
+    }
+    .tm-cta-section {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .tm-description-figure {
+        width: 100%;
+    }
+
+    .tm-container-inner {
+        padding: 0 3.5em;
+    }
+
+    .tm-description-box  {
+        font-size: 1.5em;
+    }
+
+    .tm-description-box .tm-gallery-title {
+        margin: 0;
+        font-size: 1.5em;
+    }
+
+    .tm-description-box p {
+
+    }
+
+    .tm-footer {
+        font-size: 1.5em;
+    }
+}
