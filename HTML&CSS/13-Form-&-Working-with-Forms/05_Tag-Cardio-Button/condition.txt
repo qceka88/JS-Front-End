@@ -1,10 +1,9 @@
-4.	Tag Cardio: Label
+5.	Tag Cardio: Button
 Create a Web Page like the following:
 
-Create a file named label.html. Use the texts from the file site-texts.txt.
-Set the html title to be the same as the task name.
-Use label to solve the problem.
-Outside on label tag need to be put form tag.
+Create a file named button.html. Use the texts from the file site-texts.txt. Set the html title to be the same as the task name.
+Use button to solve the problem.
+
 
 
 ```

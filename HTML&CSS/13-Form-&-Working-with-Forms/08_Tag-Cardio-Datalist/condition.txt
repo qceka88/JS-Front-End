@@ -1,0 +1,14 @@
+8.	Tag Cardio: Datalist
+Use skeleton, which is in resources to solve the next problem:
+
+                                       ↓
+
+Create a file named datalist.html. Use the texts from the file site-texts.txt. Set the html title to be the same as the task name.
+Use datalist to solve the problem.
+Outside on datalist tag need to be put form tag.
+
+
+
+```
+  TEXT IS IN .txt FILE
+```
