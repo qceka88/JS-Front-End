@@ -1,0 +1,7 @@
+2.	Tag Cardio: Input
+Create a Web Page like the following:
+
+Create a file named input.html. Set the html title to be the same as the task name.
+Use input with type="text" to solve the problem.
+Outside on input tag need to be put form tag.
+Hint: Use <br> tag for new line!

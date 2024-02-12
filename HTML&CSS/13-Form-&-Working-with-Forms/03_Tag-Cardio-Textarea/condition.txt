@@ -1,0 +1,11 @@
+3.	Tag Cardio: Textarea
+Create a Web Page like the following:
+
+Create a file named textarea.html. Use the texts from the file site-texts.txt. Set the html title to be the same as the task name.
+Use textarea to solve the problem.
+Outside on textarea tag need to be put form tag.
+
+
+```
+  TEXT IS IN .txt FILE
+```
