@@ -1,0 +1,352 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 15px/1.5 "Arial", sans-serif;
+}
+
+body {
+    background-color: #84dbfe;
+}
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #fdfdfe;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 4em 1.5em 7em;
+    box-shadow: 0 0 1em 0.1em #fdfdfe;
+    z-index: 50;
+    position: relative;
+}
+
+
+header nav {
+    display: flex;
+    gap: 2em;
+    list-style: none;
+
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 7em;
+    gap: 3em;
+}
+
+.hero-section .hero-media {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-section .hero-media img {
+    width: 500px;
+    height: auto;
+    display: block;
+    position: relative;
+    z-index: 1;
+
+}
+
+.hero-section .hero-data {
+    margin: auto;
+    gap: 2em;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    padding-right: 6em;
+    padding-left: 6em;
+}
+
+.hero-section .hero-data h1 {
+    font-size: 2.2em;
+}
+
+.hero-section .hero-data .hero-buttons {
+    display: flex;
+    gap: 2em;
+
+}
+
+.services-section {
+    background-color: #fdfdfe;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2em 7em;
+}
+
+.services-section h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.services-section > p {
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+.services-section .services {
+    display: flex;
+    gap: 1em;
+}
+
+.service-card {
+    padding: 2em 4em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin: 0 auto;
+}
+
+.service-card i {
+    color: #84dbfe;
+    font-size: 10em;
+}
+
+.work-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 4em;
+    margin: 0 auto;
+    gap: 4em;
+}
+
+.work-section h2 {
+    font-size: 2em;
+}
+
+.work-section ul {
+    display: grid;
+    grid-template-columns: repeat(2, 30em);
+    margin: 0 auto;
+
+    text-align: start;
+    grid-gap: 1.5em;
+    padding-left: 10em;
+}
+
+.work-section ul li {
+    font-size: 55px;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    line-height: 15px;
+}
+
+.work-section ul li span {
+    font-size: 1.4rem;
+    position: relative;
+    left: -1.2rem;
+
+}
+
+.work-section ul li:nth-child(-n+3) {
+    grid-column: 1;
+}
+
+.work-section ul li:nth-child(4) {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.work-section ul li:nth-child(5) {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.work-section ul li:nth-child(6) {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+
+.work-section a {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.animals-section {
+    background-color: #fdfdfe;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 2em 4em;
+
+}
+
+.animals-section h2 {
+    font-size: 3em;
+    font-weight: 900;
+    padding-bottom: 1.8rem;
+}
+
+.animals-section p {
+    font-size: 18px;
+    padding-bottom: 1.8rem;
+}
+
+.animals-section .animals-media {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    gap: 3em;
+    justify-content: center;
+}
+
+.animals-section .animals-media img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.goal-section {
+    background: #fdfdfe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.goal-section h1 {
+    font-size: 27px;
+    padding-bottom: 1em;
+}
+
+.goal-section .goals {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    margin: 0 auto;
+}
+
+.goal-card {
+    width: 67%;
+    text-align: start;
+    margin: 0 auto;
+    border: 1px solid #d8d8d8;
+    border-radius: 0.5em;
+}
+
+.goal-card h4 {
+    background: #84dbfe;
+    padding: 1.5em 1.8em;
+    border-radius: 0.5em 0.5em 0 0;
+}
+
+.goal-card p {
+    padding: 1.5em 1.8em;
+    font-weight: 600;
+}
+
+.subscribe-section {
+    background: #fdfdfe;
+    display: flex;
+    padding-top: 2em;
+}
+
+.subscribe-media {
+    flex: 1 0 50%;
+}
+
+.subscribe-section .subscribe-form {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin: auto;
+    padding: 5em 10em 5em 4em;
+}
+
+.subscribe-section .subscribe-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.subscribe-section .subscribe-form form input {
+    width: 35%;
+    color: #757575;
+    border: 1px solid #d8d8d8;
+}
+
+.email-button {
+    width: 20%;
+}
+
+.subscribe-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 1em 0;
+}
+
+footer {
+    background: #fdfdfe;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1.5em 5em;
+}
+
+footer p {
+    font-weight: bold;
+}
+
+footer .social-media {
+    font-size: 2em;
+    display: flex;
+    gap: 1em;
+}
+
+.social-media a {
+    color: black;
+}
+
+/* KEEL */
+.button {
+    flex: 1 1 auto;
+    text-decoration: none;
+    background-color: #000001;
+    color: #fdfdfe;
+    padding: 1em 2em;
+    border-radius: 0.3em;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.button.white {
+    background: #fdfdfe;
+    border: 1px solid #000001;
+    color: #101010;
+}
+
