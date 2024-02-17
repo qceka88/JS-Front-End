@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 15px/1.5 "Inter", serif;
+    height: 100%;
+}
+
+body {
+    background-image: url("../01-Payment-Plan/image/background.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center;
+    height: 100%;
+}
+
+.container {
+    max-width: 1600px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 2em;
+    margin: 0 auto;
+}
+
+
+.card {
+    background: #fdfdfe;
+    padding: 2.1em 2em 3em;
+    flex: 0 0 auto;
+    max-width: 400px;
+    height: 100%;
+}
+
+
+.card h2 {
+    font-size: 22px;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+
+.card h1 {
+    font-size: 60px;
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+
+.card h1 sub {
+    font-size: 15px;
+    font-weight: normal;
+    padding-top: 3.2em;
+}
+
+.card p {
+    font-size: 11px;
+    padding-bottom: 2rem;
+}
+
+.card ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+    padding-bottom: 5em;
+}
+
+.card a {
+    background-color: #000001;
+    color: #fdfdfe;
+    text-decoration: none;
+    padding: 1em 2em;
+    border-radius: 0.3em;
+}
+
+.card:nth-child(2) h1 {
+    padding: 1rem 0;
+}
+
+.card:nth-child(2) h2 {
+    padding-bottom: 1.5rem;
+}
+
+.card:nth-child(2) ul {
+    padding: 0.2em 0 5em;
+}
