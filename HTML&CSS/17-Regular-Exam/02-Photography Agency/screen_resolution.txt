@@ -1,0 +1,12 @@
+-- Monitor --
+Diagonal: 15.6"
+Resolution: 1920x1080
+Scale: 125% (Windows recommended)
+_________________________________
+-- Browser --
+Scale: 100%
+
+-- Inspector --
+width: 600px
+Height: -
+Scale: 100%

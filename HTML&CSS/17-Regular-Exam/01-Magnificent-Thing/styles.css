@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 12px/1.5 "Inter", sans-serif;
+    height: 100%;
+}
+
+body {
+    background-color: #84dbfe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.magnificent-container {
+    display: flex;
+    width: 1060px;
+    height: 613px;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 3em;
+}
+
+.magnificent-media {
+    flex: 1 1 auto;
+    display: flex;
+
+}
+
+.magnificent-image {
+    box-shadow: 0.2em 0.2em 0.9em 0 black;
+    width: 362px;
+    height: 481px;
+    margin: auto;
+}
+
+.magnificent-data {
+    flex: 1 1 auto;
+    margin: auto;
+}
+
+.magnificent-data h1 {
+    font-size: 3.8em;
+    line-height: 1.1;
+    padding-bottom: 2rem;
+}
+
+.magnificent-data p {
+    font-size: 1.2em;
+}
+
+.magnificent-buttons {
+    display: flex;
+    padding-top: 2.2em;
+    gap: 2em;
+}
+
+.button {
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    color: #000001;
+    border-radius: 0.3em;
+}
+
+.button.white {
+    background-color: #fdfdfe;
+}
+
+.button.green {
+    background-color: #42a959;
+    border: 1px solid #000001;
+}
+
+.button.green:hover {
+    background-color: #000001;
+    color: #fdfdfe;
+}
