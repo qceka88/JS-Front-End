@@ -24,11 +24,18 @@ ageDefiner(-1);
 //////////////////////////////// TASK CONDITION ////////////////////////////////
 ```
 
-                        2. Student Information
-You will be given 3 parameters – student name (string), age (number), and average grade (number). 
-Your task is to print all the info about the student in the following format: 
-\`Name: {student name}, Age: {student age}, Grade: {student grade}\`
- Note: The grade should be formatted to the second decimal point.
+                        1.\tAges
+Write a function that determines whether based on the given age a person is: baby, child, teenager, adult, elder.
+The input comes as a single number parameter. The bounders are:
+•\t0-2 (age) – is a baby;   
+•\t3-13 (age) – is a child; 
+•\t14-19 (age) – is a teenager;
+•\t20-65 (age) – is an adult;
+•\t>=66 (age) – is an elder; 
+•\tIn all other cases print – "out of bounds";
+The output should be printed to the console.
+Examples
+
 
 
 ____________________________________________________________________________________________
