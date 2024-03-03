@@ -1,5 +1,5 @@
 function splitter(text) {
-    let result = text.split(/(?=[A-Z][a-z]+)/);
+    let result = text.split(/(?=[A-Z][a-z]*)/);
 
     console.log(result.join(', '));
 
@@ -7,7 +7,7 @@ function splitter(text) {
 
 splitter('SplitMeIfYouCanHaHaYouCantOrYouCan');
 splitter('HoldTheDoor');
-splitter('ThisIsSoAnnoyingToDo');
+splitter('ThisIsSoAnnoyingToDosSSSSS');
 
 
 //////////////////////////////// TASK CONDITION ////////////////////////////////
