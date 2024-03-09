@@ -1,6 +1,6 @@
 function perfectNumber(inputNum) {
-    let safeMaxDivisor = Math.floor(inputNum / 2);
-    let properDivisors = [...Array(safeMaxDivisor)].map((_, i) => i + 1).filter(a => inputNum % a === 0);
+    let possibleMaxDivisor = Math.floor(inputNum / 2);
+    let properDivisors = [...Array(possibleMaxDivisor)].map((_, i) => i + 1).filter(a => inputNum % a === 0);
 
     let sumDivisors = properDivisors.reduce((a, d) => a + d, 0);
 
