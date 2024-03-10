@@ -3,7 +3,7 @@ function pointsValidator(someArray) {
     let generatePointsArrays = (x) => [[x[0], x[1], 0, 0], [x[2], x[3], 0, 0], x];
 
     function validation(somePoints) {
-        let p = somePoints.pop()
+        let p = somePoints.shift();
 
         console.log(`{${p[0]}, ${p[1]}} to {${p[2]}, ${p[3]}} is ${isValid(p) ? 'valid' : 'invalid'}`);
 
