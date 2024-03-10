@@ -13,6 +13,8 @@ function numberModification(someNumber) {
         numberAsArray.push(9)
     }
 
+    // while ((averageSum = numberAsArray.reduce((a, v) => a + v, 0) / numberAsArray.length) <= 5) numberAsArray.push(9);
+    // console.log(numberAsArray.join(''));
 }
 
 numberModification(101);
