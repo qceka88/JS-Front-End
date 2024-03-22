@@ -1,12 +1,24 @@
-function editElement(element, a, b) {
-    let result = element.innerText
+function editElement(element, firstWord, secondWord) {
+    let result = element.innerText;
 
-    if (result.includes(a)) {
-        while (result.includes(a)) {
-            result = result.replace(a,b)
+    let replaceWords = function (target, replaceable, text) {
+        ```
+            Recursion is unnecessary but is beautiful!
+        ```
+        let output = text.slice();
+
+        if (!output.includes(target)) {
+            return output;
         }
 
-        element.innerText = result;
+        output = output.replace(target, replaceable)
+        return replaceWords(target, replaceable, output)
+    }
+
+    if (result.includes(firstWord)) {
+        element.innerText = replaceWords(firstWord, secondWord, result);
+    } else {
+        element.innerText = replaceWords(secondWord, firstWord, result);
     }
 }
 
