@@ -46,7 +46,7 @@ schoolRegister([
         "Student name: Peter, Grade: 11, Graduated with an average score: 4.88",
         "Student name: Gavin, Grade: 10, Graduated with an average score: 4.00"
     ]
-)
+);
 
 
 //////////////////////////////// TASK CONDITION ////////////////////////////////
