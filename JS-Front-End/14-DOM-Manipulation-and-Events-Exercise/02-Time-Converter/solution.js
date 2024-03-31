@@ -1,6 +1,5 @@
 function attachEventsListeners() {
     const buttonsElements = document.querySelectorAll('main div input[type=button]');
-    const inputElements = document.querySelectorAll('input[type=text]');
 
     const convertor = {
         'days': (x,o) => eval(`${x} ${o} 24 ${o} 60 ${o} 60`),
@@ -11,13 +10,14 @@ function attachEventsListeners() {
 
     for (const button of buttonsElements) {
         button.addEventListener('click', (e) => {
-            const currentInput = e.target.previousElementSibling;
+            const elementInput = e.target.previousElementSibling;
             const multiplyOperator = '*';
-            const currentSeconds = convertor[currentInput.id](Number(currentInput.value), multiplyOperator);
+            const currentSeconds = convertor[elementInput.id](Number(elementInput.value), multiplyOperator);
 
-            Array.from(inputElements).forEach(element => {
+            Array.from(buttonsElements).forEach(element => {
+                const inputElement = element.previousElementSibling;
                 const divideOperator = '/';
-                element.value = convertor[element.id](currentSeconds, divideOperator);
+                inputElement.value = convertor[inputElement.id](currentSeconds, divideOperator);
             });
         });
     }
