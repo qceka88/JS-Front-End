@@ -11,18 +11,24 @@ function solve() {
     checkBtnElement.addEventListener('click', (e) => {
         const matrixLength = tBodyAsMatrix.length
         let isResolved = true;
-        let [row, col] = [[], []];
 
         for (let i = 0; i < matrixLength; i++) {
-            const cellX = Number(tBodyAsMatrix[matrixLength - 1][i].value);
-            const cellY = Number(tBodyAsMatrix[i][matrixLength - 1].value);
+            let [row, col] = [[], []];
+            for (let j = 0; j < matrixLength; j++) {
+                const cellX = Number(tBodyAsMatrix[i][j].value);
+                const cellY = Number(tBodyAsMatrix[j][i].value);
 
-            if (col.includes(cellY) || row.includes(cellX)) {
-                isResolved = false;
+                if (col.includes(cellY) || row.includes(cellX)) {
+                    isResolved = false;
+                    break;
+                }
+                col.push(cellY);
+                row.push(cellX);
+            }
+            if (!isResolved) {
                 break;
             }
-            col.push(cellY);
-            row.push(cellX);
+            [row, col] = [[], []];
 
         }
 
