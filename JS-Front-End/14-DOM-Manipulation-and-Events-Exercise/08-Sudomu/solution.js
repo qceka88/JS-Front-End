@@ -28,8 +28,6 @@ function solve() {
             if (!isResolved) {
                 break;
             }
-            [row, col] = [[], []];
-
         }
 
         if (isResolved) {
