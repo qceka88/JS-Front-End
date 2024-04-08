@@ -74,11 +74,10 @@ function attachEvents() {
                             const lowTemp = upcomingDay['low'];
 
                             newSpan.innerHTML = `
-                                        <span class="condition symbol">${weatherCodes[condition]}</span>
-                                        <span class="condition">
-                                            <span class="forecast-data">${lowTemp}°/${highTemp}°</span>
-                                            <span class="forecast-data">${condition}</span>
-                                        </span>`
+                                        <span class="symbol">${weatherCodes[condition]}</span>
+                                        <span class="forecast-data">${lowTemp}°/${highTemp}°</span>
+                                        <span class="forecast-data">${condition}</span>
+                                        `
                             upcomingNewDivElement.appendChild(newSpan);
                         }
                         upcomingContainerElement.appendChild(upcomingNewDivElement);
