@@ -35,8 +35,7 @@ function attachEvents() {
     }
 
     function addComments() {
-        const postID = selectElement.selectedIndex;
-        const post = posts[postID];
+        const post = posts[selectElement.selectedIndex];
 
         postTitleElement.textContent = post.title;
         postBodyElement.textContent = post.body;
