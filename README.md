@@ -17,3 +17,6 @@ This is a part from my education in [SoftUni](https://softuni.bg/).
 
 Result of HTML & CSS exam.
 ![HTML&CSS.jpeg](HTML%26CSS.jpeg)
+
+Result of JS Front-End exam.
+![JSFrontEnd.jpeg](JSFrontEnd.jpeg)
